@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+}
+#container {
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px gainsboro;
+}
+#principal {
+    margin: 0 auto;
+}
+header img {
+    width: 100%;
+    height: 150px;
+}
+nav {
+    width: 20%;
+    float: left;
+}
+#contenido {
+    width: 78%;
+    float: right;
+    padding-bottom: 30px;
+    color: rgb(6, 10, 8);
+}
+footer {
+    background-color: rgb(207, 6, 6);
+    color: rgb(227, 243, 10);
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.cb {
+    clear: both;
+}
+nav ul, nav li {
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    list-style-type: none;
+    text-align: center;
+    color: rgb(207, 6, 6);
+    font-size: 22px;
+    border: solid 1px rgb(207, 6, 6);
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+nav ul li:hover {
+    color: rgb(227, 243, 10);
+    background-color: rgb(207, 6, 6);
+}
+a {
+    text-decoration: none;
+}
+.text-azulo {
+    color:rgb(207, 6, 6);
+}
+.etiqueta {
+    font-size: 34px;
+    color: rgb(243, 6, 6);
+}
+.centro{
+    text-align: center;
+}
+.titulo {
+    text-align: center;
+    color: rgb(55, 7, 230);
+}
+.text-derecha {
+    text-align: right;
+}
+#tablas {
+    text-align: center;
+}
+#tablas table {
+    width: 100%;
+}
+#tablas th {
+    color: #007972;
+    font-size: 28px;
+}
+#tdefault, #tdefault th{
+    color: rgb(111, 199, 226);
+    background-color: rgb(48, 48, 216);
+}
+#thorario table {
+    width: 90%;
+    margin: 0 auto;
+}
+#thorario table, #thorario td, #thorario th {
+    border: solid 1px;
+}
+#tcombinaciones table, #tcombinaciones td, #tcombinaciones th {
+    border: solid 1px;
+    color: rgb(28, 196, 56);
+    background-color: yellow;
+}
+.tcombinaciones1 th {
+    background-color: green;
+    color: yellow;
+}
+#tparimpar table {
+    border: solid 1px;
+}
+.fol {
+    background-color: #FFD22E;
+}
+.entornos {
+    background-color:#807FC3;
+}
+.basedatos {
+    background-color:#81FF81;
+}
+.ingles {
+    background-color:#EFF0C8;
+}
+.marcas {
+    background-color: #FE8081;
+}
+.sisi {
+    background-color: #C9A0C8;
+}
+.prog {
+    background-color: #96DC96;
+}
+#thorario th{
+    color: rgb(111, 37, 180);
+}
+.txt-24 {
+    font-size: 24px;
+}
+#customd li{
+    list-style-type: square;
+}
+#customd li li{
+    list-style-type: disc;
+}
+#customd li li li{
+    list-style-type: circle;
+}
+#customo li{
+    list-style-type: lower-alpha;
+}
+#customo li li{
+    list-style-image: url(../img/pala2.png);
+}
+#customo li li li{
+    list-style-type: upper-roman;
+    list-style-image: none;
+}
+#listas dt{
+    font-weight: bold;
+    color: rgb(0, 0, 78);
+    font-size: 20px;
+}
+#registro fieldset{
+    width: 40%;
+}
+#grande fieldset{
+    width: 60%;
+}
+.margen{
+    padding: 0 20px 0 20px;
+}
+#multimedia {
+    text-align: center;
+}
