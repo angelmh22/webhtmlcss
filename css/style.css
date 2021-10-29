@@ -54,9 +54,6 @@ nav ul li:hover {
 a {
     text-decoration: none;
 }
-.text-azulo {
-    color:rgb(207, 6, 6);
-}
 .etiqueta {
     font-size: 34px;
     color: rgb(243, 6, 6);
@@ -81,9 +78,31 @@ a {
     color: #007972;
     font-size: 28px;
 }
-#tdefault, #tdefault th{
+#tdefault {
+    width: 90%;
+    margin: 0 auto;
+}
+#tdefault th {
     color: rgb(111, 199, 226);
     background-color: rgb(48, 48, 216);
+}
+#tdefault td {
+    color: rgb(46, 18, 202);
+    background-color: rgb(111, 199, 226);
+}
+#tparimpar th {
+    color: hotpink;
+    background-color: lawngreen;
+}
+#tparimpar td {
+    color: rgb(48, 14, 143);
+    background-color: hotpink;
+}
+#tparimpar tr:nth-child(odd) td {
+    background-color: indianred;
+}
+#tparimpar tr:nth-child(even) td {
+    background-color:lightblue;
 }
 #thorario table {
     width: 90%;
@@ -92,14 +111,13 @@ a {
 #thorario table, #thorario td, #thorario th {
     border: solid 1px;
 }
-#tcombinaciones table, #tcombinaciones td, #tcombinaciones th {
-    border: solid 1px;
-    color: rgb(28, 196, 56);
-    background-color: yellow;
-}
-.tcombinaciones1 th {
+#tcombinaciones th {
     background-color: green;
     color: yellow;
+}
+#tcombinaciones td {
+    background-color: yellow;
+    color: green;
 }
 #tparimpar table {
     border: solid 1px;
